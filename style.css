@@ -1,0 +1,134 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: rgba(121, 10, 10, 0);
+    font-family: 'Titillium Web', sans-serif;
+    
+}
+
+.container{
+    
+    max-width:380px;
+    margin:0 auto;
+    overflow: auto;
+   
+}
+
+.header{
+    width: 380px;
+    height:200px;
+    background-image: url('../img/b3.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border-radius: 0 0 0 0;
+    position: relative;
+}
+.clear{
+    width : 30px;
+    height: 30px;
+    position: absolute;
+    right:20px;
+    top: 20px;
+}
+.clear i{
+    font-size: 30px;
+    color: rgb(83, 61, 61);
+}
+.clear i:hover{
+    text-shadow: 1px 3px 5px #000;
+    transform: rotate(45deg);
+}
+#date{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: #FFF;
+    font-size: 25px;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.content{
+    width:380px;
+    height: 338px;
+    max-height:338px;
+    background-color: #000000ce;
+    overflow: auto;
+}
+.content::-webkit-scrollbar { 
+    display: none; 
+}
+.content ul{
+    padding:0;
+    margin:0;
+}
+.item{
+    width:380px;
+    height: 45px;
+    min-height: 45px;
+    position: relative;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.item i.co{
+    position: absolute;
+    font-size: 25px;
+    padding-left:5px;
+    left:15px;
+    top:10px;
+}
+.fa-check-circle{
+    color:#6eb200;
+}
+.item p.text{
+    position: absolute;
+    padding:0;
+    margin:0;
+    font-size: 20px;
+    left:50px;
+    top:5px;
+    color:#6274c5;
+    max-width:285px;
+}
+.lineThrough{
+    text-decoration: line-through;
+    color : rgb(219, 12, 12);
+}
+.item i.de{
+    position: absolute;
+    color : #ccc;
+    font-size: 25px;
+    right:15px;
+    top:10px;
+}
+.item i.de:hover{
+    color:#af0000;
+    cursor: pointer;
+}
+.add-to-do{
+    position: relative;
+    width: 360px;
+    height:40px;
+    background-color: rgb(41, 40, 40);
+    padding: 10px;
+    border-top: 1px solid rgba(0,0,0,0.1);
+}
+.add-to-do i{
+    position: absolute;
+    font-size: 40px;
+    color: #dfe2ec;
+}
+
+.add-to-do input{
+    position: absolute;
+    left: 50px;
+    height: 35px;
+    width: 310px;
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    padding-left:10px;
+    color: #6274c5;
+}
+
